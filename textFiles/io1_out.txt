@@ -1,0 +1,44 @@
+Node Alfa, mnemonic AAA, value x
+Alfa has edge to Bravo labeled 8>
+Alfa has edge to Delta labeled 99
+Alfa has edge to Echo labeled fig
+Alfa has edge from Bravo labeled 999
+Alfa has edge from Delta labeled 3
+
+Node Bravo, mnemonic BB, value 67
+Bravo has edge to Alfa labeled 999
+Bravo has edge to Bravo labeled -42
+Bravo has edge to Charlie labeled 3
+Bravo has edge to Delta labeled x
+Bravo has edge to Echo labeled ==
+Bravo has edge from Alfa labeled 8>
+Bravo has edge from Bravo labeled -42
+Bravo has edge from Charlie labeled 4
+Bravo has edge from Delta labeled 22
+
+Node Charlie, mnemonic C, no value 
+Charlie has edge to Bravo labeled 4
+Charlie has edge to Delta labeled yz
+Charlie has edge to Echo labeled 9
+Charlie has edge from Bravo labeled 3
+Charlie has edge from Delta labeled x
+
+Node Delta, mnemonic DDD, value 4e
+Delta has edge to Alfa labeled 3
+Delta has edge to Bravo labeled 22
+Delta has edge to Charlie labeled x
+Delta has edge to Echo labeled !=2
+Delta has edge from Alfa labeled 99
+Delta has edge from Bravo labeled x
+Delta has edge from Charlie labeled yz
+Delta has edge from Echo labeled d>e
+
+Node Echo, mnemonic E, value yes
+Echo has edge to Delta labeled d>e
+Echo has edge to Echo labeled 33
+Echo has edge from Alfa labeled fig
+Echo has edge from Bravo labeled ==
+Echo has edge from Charlie labeled 9
+Echo has edge from Delta labeled !=2
+Echo has edge from Echo labeled 33
+

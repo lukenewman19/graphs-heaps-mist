@@ -1,0 +1,44 @@
+Node A, mnemonic a, value x
+A has edge to B labeled >
+A has edge to D labeled 99
+A has edge to E labeled fig
+A has edge from B labeled 999
+A has edge from D labeled 3
+
+Node B, mnemonic b, value 67
+B has edge to A labeled 999
+B has edge to B labeled -42
+B has edge to C labeled 3
+B has edge to D labeled x
+B has edge to E labeled ==
+B has edge from A labeled >
+B has edge from B labeled -42
+B has edge from C labeled 4
+B has edge from D labeled 22
+
+Node C, mnemonic c, value ~
+C has edge to B labeled 4
+C has edge to D labeled yz
+C has edge to E labeled 9
+C has edge from B labeled 3
+C has edge from D labeled x
+
+Node D, mnemonic d, value 4e
+D has edge to A labeled 3
+D has edge to B labeled 22
+D has edge to C labeled x
+D has edge to E labeled !=2
+D has edge from A labeled 99
+D has edge from B labeled x
+D has edge from C labeled yz
+D has edge from E labeled d>e
+
+Node E, mnemonic e, value yes
+E has edge to D labeled d>e
+E has edge to E labeled 33
+E has edge from A labeled fig
+E has edge from B labeled ==
+E has edge from C labeled 9
+E has edge from D labeled !=2
+E has edge from E labeled 33
+

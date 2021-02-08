@@ -1,0 +1,2 @@
+MST edges in order of addition: DenSLC, DenOKC, SLCPrt, OKCMpl
+MST length: 2752

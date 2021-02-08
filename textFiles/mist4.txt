@@ -1,0 +1,5 @@
+~               val Chi Det GBy Mpl
+Chicago           0  ~  283 211 409
+Detroit           1 283  ~  501 695
+GreenBay         2 211 501  ~  278
+Minneapolis       3 409 695 278  ~

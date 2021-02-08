@@ -1,0 +1,2 @@
+MST edges in order of addition: AleAus, AleWas, WasOwa, OwaFrb, FrbNfd, WasMkt, MktSPt, SPtNUl, NfdSkp, SkpMpl, MplSPl, SPlStl, NfdRWg, AusRch, NUlHut, HutLit, LitWlm, WlmMvo, MvoMar, LitStC, StCLFl, LFlBra, MarPip, PipLuv, LuvWrt, WrtWnd, NUlFmt, MvoMor, MorAlx, AlxFFl, FFlDLk, DLkMrh, RchWin, WinLCr, MrhCrk, CrkEGF, CrkTRF, TRFNoy, BraGRp, GRpHib, HibVir, VirEly, VirClq, ClqDul, GRpBem, VirIfl, IflBau, DulGPo
+MST length: 1985

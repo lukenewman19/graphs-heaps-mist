@@ -1,0 +1,124 @@
+Node CFS262, mnemonic C262, value L
+CFS262 has edge to ICS140 labeled >=
+CFS262 has edge from CFS264 labeled >=
+CFS262 has edge from CFS280 labeled >
+
+Node CFS264, mnemonic C264, value L
+CFS264 has edge to CFS262 labeled >=
+CFS264 has edge from CFS280 labeled >
+CFS264 has edge from CFS483 labeled >
+
+Node CFS280, mnemonic C280, value L
+CFS280 has edge to CFS262 labeled >
+CFS280 has edge to CFS264 labeled >
+CFS280 has edge from CFS345 labeled >
+CFS280 has edge from CFS380 labeled >
+
+Node CFS345, mnemonic c345, value U
+CFS345 has edge to CFS280 labeled >
+CFS345 has edge from CFS445 labeled >
+
+Node CFS380, mnemonic C380, value U
+CFS380 has edge to CFS280 labeled >
+CFS380 has edge from CFS499 labeled >
+
+Node CFS383, mnemonic c383, value U
+CFS383 has edge to ICS382 labeled >
+
+Node CFS445, mnemonic c445, value U
+CFS445 has edge to CFS345 labeled >
+
+Node CFS483, mnemonic c483, value U
+CFS483 has edge to CFS264 labeled >
+CFS483 has edge to ICS382 labeled >
+
+Node CFS485, mnemonic c485, value U
+CFS485 has edge to ICS382 labeled >
+
+Node CFS499, mnemonic c499, value U
+CFS499 has edge to CFS380 labeled >
+CFS499 has edge to ICS382 labeled >
+
+Node ICS140, mnemonic i140, value L
+ICS140 has edge from CFS262 labeled >=
+ICS140 has edge from ICS141 labeled >
+
+Node ICS141, mnemonic i141, value L
+ICS141 has edge to ICS140 labeled >
+ICS141 has edge from ICS232 labeled >
+ICS141 has edge from ICS225 labeled >
+ICS141 has edge from ICS240 labeled >
+ICS141 has edge from ICS311 labeled >
+ICS141 has edge from ICS370 labeled >
+ICS141 has edge from ICS382 labeled >
+
+Node ICS232, mnemonic i225, value L
+ICS232 has edge to ICS141 labeled >
+ICS232 has edge from ICS325 labeled >
+ICS232 has edge from ICS425 labeled >
+
+Node ICS225, mnemonic i232, value L
+ICS225 has edge to ICS141 labeled >
+ICS225 has edge from ICS462 labeled >
+
+Node ICS240, mnemonic i240, value L
+ICS240 has edge to ICS141 labeled >
+ICS240 has edge from ICS340 labeled >
+ICS240 has edge from ICS365 labeled >
+ICS240 has edge from ICS372 labeled >
+
+Node ICS311, mnemonic i311, value U
+ICS311 has edge to ICS141 labeled >
+ICS311 has edge from ICS412 labeled >
+
+Node ICS325, mnemonic i325, value U
+ICS325 has edge to ICS232 labeled >
+
+Node ICS340, mnemonic i340, value U
+ICS340 has edge to ICS240 labeled >
+ICS340 has edge from ICS412 labeled >=
+ICS340 has edge from ICS460 labeled >=
+ICS340 has edge from ICS462 labeled >=
+
+Node ICS365, mnemonic i365, value U
+ICS365 has edge to ICS240 labeled >
+
+Node ICS370, mnemonic i370, value U
+ICS370 has edge to ICS141 labeled >
+
+Node ICS372, mnemonic i372, value U
+ICS372 has edge to ICS240 labeled >
+ICS372 has edge from ICS499 labeled >
+
+Node ICS382, mnemonic i382, value U
+ICS382 has edge to ICS141 labeled >
+ICS382 has edge from CFS383 labeled >
+ICS382 has edge from CFS483 labeled >
+ICS382 has edge from CFS485 labeled >
+ICS382 has edge from CFS499 labeled >
+ICS382 has edge from ICS482 labeled >
+
+Node ICS412, mnemonic i412, value U
+ICS412 has edge to ICS311 labeled >
+ICS412 has edge to ICS340 labeled >=
+
+Node ICS425, mnemonic i425, value U
+ICS425 has edge to ICS232 labeled >
+
+Node ICS440, mnemonic i440, value U
+ICS440 has edge to ICS440 labeled >
+ICS440 has edge from ICS440 labeled >
+
+Node ICS460, mnemonic i460, value U
+ICS460 has edge to ICS340 labeled >=
+
+Node ICS462, mnemonic i462, value U
+ICS462 has edge to ICS225 labeled >
+ICS462 has edge to ICS340 labeled >=
+
+Node ICS482, mnemonic i482, value U
+ICS482 has edge to ICS382 labeled >
+
+Node ICS499, mnemonic i499, value U
+ICS499 has edge to ICS372 labeled >
+

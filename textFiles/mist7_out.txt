@@ -1,0 +1,2 @@
+MST edges in order of addition: ChiStL, StLNas, ChiStP, StPWin, StLDal, DalDen
+MST length: 2899

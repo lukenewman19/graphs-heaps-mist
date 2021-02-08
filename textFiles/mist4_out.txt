@@ -1,0 +1,2 @@
+MST edges in order of addition: ChiGBy, GByMpl, ChiDet
+MST length: 772

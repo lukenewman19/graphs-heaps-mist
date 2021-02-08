@@ -1,0 +1,6 @@
+~          val    a    b    c    d    e
+A            x    ~    >    ~   99  fig
+B           67  999  -42    3    x   ==
+C            ~    ~    4    ~   yz    9
+D           4e    3   22    x    ~  !=2
+E          yes    ~    ~    ~  d>e   33

@@ -1,0 +1,39 @@
+Heaps:
+1:ALe
+1:ALe, 2:Alx
+1:ALe, 2:Alx, 3:Aus
+1:ALe, 2:Alx, 3:Aus, 4:Bau
+1:ALe, 2:Alx, 3:Aus, 4:Bau, 5:Bem
+1:ALe, 2:Alx, 3:Aus, 4:Bau, 5:Bem, 6:Bra
+1:Clq, 2:Alx, 3:ALe, 4:Bau, 5:Bem, 6:Bra, 7:Aus
+1:Clq, 2:Crk, 3:ALe, 4:Alx, 5:Bem, 6:Bra, 7:Aus, 8:Bau
+1:Clq, 2:Crk, 3:ALe, 4:DLk, 5:Bem, 6:Bra, 7:Aus, 8:Bau, 9:Alx
+1:Clq, 2:Dul, 3:ALe, 4:DLk, 5:Crk, 6:Bra, 7:Aus, 8:Bau, 9:Alx, 10:Bem
+1:Clq, 2:Dul, 3:ALe, 4:DLk, 5:Crk, 6:Bra, 7:Aus, 8:Bau, 9:Alx, 10:Bem, 11:EGF
+1:Clq, 2:Dul, 3:ALe, 4:DLk, 5:Crk, 6:Ely, 7:Aus, 8:Bau, 9:Alx, 10:Bem, 11:EGF, 12:Bra
+1:Clq, 2:Dul, 3:ALe, 4:DLk, 5:Crk, 6:Fmt, 7:Aus, 8:Bau, 9:Alx, 10:Bem, 11:EGF, 12:Bra, 13:Ely
+1:Clq, 2:Dul, 3:ALe, 4:DLk, 5:Crk, 6:Fmt, 7:Frb, 8:Bau, 9:Alx, 10:Bem, 11:EGF, 12:Bra, 13:Ely, 14:Aus
+1:Clq, 2:Dul, 3:FFl, 4:DLk, 5:Crk, 6:Fmt, 7:ALe, 8:Bau, 9:Alx, 10:Bem, 11:EGF, 12:Bra, 13:Ely, 14:Aus, 15:Frb
+1:Clq, 2:Dul, 3:FFl, 4:DLk, 5:Crk, 6:Fmt, 7:ALe, 8:Bau, 9:Alx, 10:Bem, 11:EGF, 12:Bra, 13:Ely, 14:Aus, 15:Frb, 16:Gpo
+1:Clq, 2:Dul, 3:FFl, 4:GRp, 5:Crk, 6:Fmt, 7:ALe, 8:DLk, 9:Alx, 10:Bem, 11:EGF, 12:Bra, 13:Ely, 14:Aus, 15:Frb, 16:Gpo, 17:Bau
+1:Clq, 2:Dul, 3:FFl, 4:GRp, 5:Crk, 6:Fmt, 7:ALe, 8:DLk, 9:Hib, 10:Bem, 11:EGF, 12:Bra, 13:Ely, 14:Aus, 15:Frb, 16:Gpo, 17:Bau, 18:Alx
+1:Clq, 2:Dul, 3:FFl, 4:GRp, 5:Crk, 6:Fmt, 7:ALe, 8:DLk, 9:Hib, 10:Bem, 11:EGF, 12:Bra, 13:Ely, 14:Aus, 15:Frb, 16:Gpo, 17:Bau, 18:Alx, 19:Hut
+Heapsort:
+1:Dul, 2:Crk, 3:FFl, 4:GRp, 5:EGF, 6:Fmt, 7:ALe, 8:DLk, 9:Hib, 10:Bem, 11:Hut, 12:Bra, 13:Ely, 14:Aus, 15:Frb, 16:Gpo, 17:Bau, 18:Alx, 19:Clq
+1:Crk, 2:EGF, 3:FFl, 4:GRp, 5:Alx, 6:Fmt, 7:ALe, 8:DLk, 9:Hib, 10:Bem, 11:Hut, 12:Bra, 13:Ely, 14:Aus, 15:Frb, 16:Gpo, 17:Bau, 18:Dul, 19:Clq
+1:EGF, 2:GRp, 3:FFl, 4:Hib, 5:Alx, 6:Fmt, 7:ALe, 8:DLk, 9:Bau, 10:Bem, 11:Hut, 12:Bra, 13:Ely, 14:Aus, 15:Frb, 16:Gpo, 17:Crk, 18:Dul, 19:Clq
+1:GRp, 2:Hib, 3:FFl, 4:DLk, 5:Alx, 6:Fmt, 7:ALe, 8:Gpo, 9:Bau, 10:Bem, 11:Hut, 12:Bra, 13:Ely, 14:Aus, 15:Frb, 16:EGF, 17:Crk, 18:Dul, 19:Clq
+1:Hib, 2:DLk, 3:FFl, 4:Frb, 5:Alx, 6:Fmt, 7:ALe, 8:Gpo, 9:Bau, 10:Bem, 11:Hut, 12:Bra, 13:Ely, 14:Aus, 15:GRp, 16:EGF, 17:Crk, 18:Dul, 19:Clq
+1:DLk, 2:Alx, 3:FFl, 4:Frb, 5:Aus, 6:Fmt, 7:ALe, 8:Gpo, 9:Bau, 10:Bem, 11:Hut, 12:Bra, 13:Ely, 14:Hib, 15:GRp, 16:EGF, 17:Crk, 18:Dul, 19:Clq
+1:FFl, 2:Alx, 3:ALe, 4:Frb, 5:Aus, 6:Fmt, 7:Ely, 8:Gpo, 9:Bau, 10:Bem, 11:Hut, 12:Bra, 13:DLk, 14:Hib, 15:GRp, 16:EGF, 17:Crk, 18:Dul, 19:Clq
+1:ALe, 2:Alx, 3:Fmt, 4:Frb, 5:Aus, 6:Bra, 7:Ely, 8:Gpo, 9:Bau, 10:Bem, 11:Hut, 12:FFl, 13:DLk, 14:Hib, 15:GRp, 16:EGF, 17:Crk, 18:Dul, 19:Clq
+1:Alx, 2:Frb, 3:Fmt, 4:Hut, 5:Aus, 6:Bra, 7:Ely, 8:Gpo, 9:Bau, 10:Bem, 11:ALe, 12:FFl, 13:DLk, 14:Hib, 15:GRp, 16:EGF, 17:Crk, 18:Dul, 19:Clq
+1:Frb, 2:Aus, 3:Fmt, 4:Hut, 5:Bem, 6:Bra, 7:Ely, 8:Gpo, 9:Bau, 10:Alx, 11:ALe, 12:FFl, 13:DLk, 14:Hib, 15:GRp, 16:EGF, 17:Crk, 18:Dul, 19:Clq
+1:Fmt, 2:Aus, 3:Ely, 4:Hut, 5:Bem, 6:Bra, 7:Bau, 8:Gpo, 9:Frb, 10:Alx, 11:ALe, 12:FFl, 13:DLk, 14:Hib, 15:GRp, 16:EGF, 17:Crk, 18:Dul, 19:Clq
+1:Aus, 2:Bem, 3:Ely, 4:Hut, 5:Gpo, 6:Bra, 7:Bau, 8:Fmt, 9:Frb, 10:Alx, 11:ALe, 12:FFl, 13:DLk, 14:Hib, 15:GRp, 16:EGF, 17:Crk, 18:Dul, 19:Clq
+1:Bem, 2:Hut, 3:Ely, 4:Bau, 5:Gpo, 6:Bra, 7:Aus, 8:Fmt, 9:Frb, 10:Alx, 11:ALe, 12:FFl, 13:DLk, 14:Hib, 15:GRp, 16:EGF, 17:Crk, 18:Dul, 19:Clq
+1:Ely, 2:Hut, 3:Bra, 4:Bau, 5:Gpo, 6:Bem, 7:Aus, 8:Fmt, 9:Frb, 10:Alx, 11:ALe, 12:FFl, 13:DLk, 14:Hib, 15:GRp, 16:EGF, 17:Crk, 18:Dul, 19:Clq
+1:Bra, 2:Hut, 3:Gpo, 4:Bau, 5:Ely, 6:Bem, 7:Aus, 8:Fmt, 9:Frb, 10:Alx, 11:ALe, 12:FFl, 13:DLk, 14:Hib, 15:GRp, 16:EGF, 17:Crk, 18:Dul, 19:Clq
+1:Hut, 2:Bau, 3:Gpo, 4:Bra, 5:Ely, 6:Bem, 7:Aus, 8:Fmt, 9:Frb, 10:Alx, 11:ALe, 12:FFl, 13:DLk, 14:Hib, 15:GRp, 16:EGF, 17:Crk, 18:Dul, 19:Clq
+1:Bau, 2:Gpo, 3:Hut, 4:Bra, 5:Ely, 6:Bem, 7:Aus, 8:Fmt, 9:Frb, 10:Alx, 11:ALe, 12:FFl, 13:DLk, 14:Hib, 15:GRp, 16:EGF, 17:Crk, 18:Dul, 19:Clq
+1:Gpo, 2:Bau, 3:Hut, 4:Bra, 5:Ely, 6:Bem, 7:Aus, 8:Fmt, 9:Frb, 10:Alx, 11:ALe, 12:FFl, 13:DLk, 14:Hib, 15:GRp, 16:EGF, 17:Crk, 18:Dul, 19:Clq

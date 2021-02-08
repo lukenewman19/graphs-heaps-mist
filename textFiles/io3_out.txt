@@ -1,0 +1,362 @@
+Node AlbertLea, mnemonic ALe, value 0
+AlbertLea has edge to Austin labeled 22
+AlbertLea has edge to Fairmont labeled 59
+AlbertLea has edge to Owatonna labeled 35
+AlbertLea has edge to Waseca labeled 33
+
+Node Alexandria, mnemonic Alx, value 1
+Alexandria has edge to FergusFalls labeled 49
+Alexandria has edge to LittleFalls labeled 55
+Alexandria has edge to Morris labeled 47
+Alexandria has edge to SaintCloud labeled 68
+Alexandria has edge to Willmar labeled 65
+
+Node Austin, mnemonic Aus, value 2
+Austin has edge to LaCrescent labeled 100
+Austin has edge to Owatonna labeled 34
+Austin has edge to Rochester labeled 41
+Austin has edge from AlbertLea labeled 22
+
+Node Baudette, mnemonic Bau, value 3
+Baudette has edge to Bemidji labeled 101
+Baudette has edge to GrandRapids labeled 131
+Baudette has edge to InternationalFalls labeled 70
+Baudette has edge to Noyes labeled 144
+Baudette has edge to ThiefRiverFalls labeled 122
+
+Node Bemidji, mnemonic Bem, value 4
+Bemidji has edge to Brainerd labeled 97
+Bemidji has edge to Crookston labeled 88
+Bemidji has edge to DetroitLakes labeled 91
+Bemidji has edge to GrandRapids labeled 69
+Bemidji has edge to InternationalFalls labeled 114
+Bemidji has edge to ThiefRiverFalls labeled 92
+Bemidji has edge from Baudette labeled 101
+
+Node Brainerd, mnemonic Bra, value 5
+Brainerd has edge to Cloquet labeled 98
+Brainerd has edge to DetroitLakes labeled 92
+Brainerd has edge to FergusFalls labeled 100
+Brainerd has edge to GrandRapids labeled 83
+Brainerd has edge to LittleFalls labeled 32
+Brainerd has edge from Bemidji labeled 97
+
+Node Cloquet, mnemonic Clq, value 6
+Cloquet has edge to Duluth labeled 21
+Cloquet has edge to GrandRapids labeled 71
+Cloquet has edge to Hibbing labeled 71
+Cloquet has edge to Minneapolis labeled 136
+Cloquet has edge to SaintCloud labeled 127
+Cloquet has edge to SaintPaul labeled 133
+Cloquet has edge to Stillwater labeled 139
+Cloquet has edge to Virginia labeled 60
+Cloquet has edge from Brainerd labeled 98
+
+Node Crookston, mnemonic Crk, value 7
+Crookston has edge to DetroitLakes labeled 92
+Crookston has edge to EastGrandForks labeled 25
+Crookston has edge to Moorhead labeled 68
+Crookston has edge to Noyes labeled 88
+Crookston has edge to ThiefRiverFalls labeled 44
+Crookston has edge from Bemidji labeled 88
+
+Node DetroitLakes, mnemonic DLk, value 8
+DetroitLakes has edge to FergusFalls labeled 48
+DetroitLakes has edge to Moorhead labeled 44
+DetroitLakes has edge to ThiefRiverFalls labeled 96
+DetroitLakes has edge from Bemidji labeled 91
+DetroitLakes has edge from Brainerd labeled 92
+DetroitLakes has edge from Crookston labeled 92
+
+Node Duluth, mnemonic Dul, value 9
+Duluth has edge to GrandPortage labeled 151
+Duluth has edge to GrandRapids labeled 83
+Duluth has edge to Hibbing labeled 76
+Duluth has edge to Virginia labeled 64
+Duluth has edge from Cloquet labeled 21
+
+Node EastGrandForks, mnemonic EGF, value 10
+EastGrandForks has edge to Moorhead labeled 80
+EastGrandForks has edge to Noyes labeled 86
+EastGrandForks has edge to ThiefRiverFalls labeled 50
+EastGrandForks has edge from Crookston labeled 25
+
+Node Ely, mnemonic Ely, value 11
+Ely has edge to GrandPortage labeled 152
+Ely has edge to InternationalFalls labeled 136
+Ely has edge to Virginia labeled 49
+
+Node Fairmont, mnemonic Fmt, value 12
+Fairmont has edge to Mankato labeled 51
+Fairmont has edge to Windom labeled 49
+Fairmont has edge to Worthington labeled 61
+Fairmont has edge from AlbertLea labeled 59
+
+Node Faribault, mnemonic Frb, value 13
+Faribault has edge to Mankato labeled 43
+Faribault has edge to Northfield labeled 14
+Faribault has edge to Owatonna labeled 16
+Faribault has edge to Rochester labeled 59
+Faribault has edge to SaintPaul labeled 51
+Faribault has edge to SaintPeter labeled 38
+Faribault has edge to Shakopee labeled 41
+Faribault has edge to Waseca labeled 31
+
+Node FergusFalls, mnemonic FFl, value 14
+FergusFalls has edge to Moorhead labeled 58
+FergusFalls has edge to Morris labeled 53
+FergusFalls has edge from Alexandria labeled 49
+FergusFalls has edge from Brainerd labeled 100
+FergusFalls has edge from DetroitLakes labeled 48
+
+Node GrandPortage, mnemonic GPo, value 15
+GrandPortage has edge to Virginia labeled 217
+GrandPortage has edge from Duluth labeled 151
+GrandPortage has edge from Ely labeled 152
+
+Node GrandRapids, mnemonic GRp, value 16
+GrandRapids has edge to Hibbing labeled 34
+GrandRapids has edge to InternationalFalls labeled 121
+GrandRapids has edge from Baudette labeled 131
+GrandRapids has edge from Bemidji labeled 69
+GrandRapids has edge from Brainerd labeled 83
+GrandRapids has edge from Cloquet labeled 71
+GrandRapids has edge from Duluth labeled 83
+
+Node Hibbing, mnemonic Hib, value 17
+Hibbing has edge to InternationalFalls labeled 100
+Hibbing has edge to Virginia labeled 23
+Hibbing has edge from Cloquet labeled 71
+Hibbing has edge from Duluth labeled 76
+Hibbing has edge from GrandRapids labeled 34
+
+Node Hutchinson, mnemonic Hut, value 18
+Hutchinson has edge to Litchfield labeled 22
+Hutchinson has edge to Minneapolis labeled 61
+Hutchinson has edge to Montevideo labeled 68
+Hutchinson has edge to NewUlm labeled 44
+Hutchinson has edge to SaintCloud labeled 49
+Hutchinson has edge to SaintPeter labeled 59
+Hutchinson has edge to Shakopee labeled 52
+
+Node InternationalFalls, mnemonic IFl, value 19
+InternationalFalls has edge to Virginia labeled 97
+InternationalFalls has edge from Baudette labeled 70
+InternationalFalls has edge from Bemidji labeled 114
+InternationalFalls has edge from Ely labeled 136
+InternationalFalls has edge from GrandRapids labeled 121
+InternationalFalls has edge from Hibbing labeled 100
+
+Node LaCrescent, mnemonic LCr, value 20
+LaCrescent has edge to Rochester labeled 71
+LaCrescent has edge to Winona labeled 26
+LaCrescent has edge from Austin labeled 100
+
+Node Litchfield, mnemonic Lit, value 21
+Litchfield has edge to Minneapolis labeled 67
+Litchfield has edge to SaintCloud labeled 41
+Litchfield has edge to Willmar labeled 28
+Litchfield has edge from Hutchinson labeled 22
+
+Node LittleFalls, mnemonic LFl, value 22
+LittleFalls has edge to Morris labeled 96
+LittleFalls has edge to SaintCloud labeled 34
+LittleFalls has edge from Alexandria labeled 55
+LittleFalls has edge from Brainerd labeled 32
+
+Node Luverne, mnemonic Luv, value 23
+Luverne has edge to Pipestone labeled 26
+Luverne has edge to Worthington labeled 33
+
+Node Mankato, mnemonic Mkt, value 24
+Mankato has edge to NewUlm labeled 30
+Mankato has edge to SaintPeter labeled 13
+Mankato has edge to Waseca labeled 29
+Mankato has edge to Windom labeled 65
+Mankato has edge from Fairmont labeled 51
+Mankato has edge from Faribault labeled 43
+
+Node Marshall, mnemonic Mar, value 25
+Marshall has edge to Montevideo labeled 39
+Marshall has edge to NewUlm labeled 82
+Marshall has edge to Pipestone labeled 43
+Marshall has edge to Willmar labeled 68
+Marshall has edge to Windom labeled 73
+
+Node Minneapolis, mnemonic Mpl, value 26
+Minneapolis has edge to Northfield labeled 43
+Minneapolis has edge to SaintCloud labeled 68
+Minneapolis has edge to SaintPaul labeled 9
+Minneapolis has edge to Shakopee labeled 22
+Minneapolis has edge to Stillwater labeled 27
+Minneapolis has edge from Cloquet labeled 136
+Minneapolis has edge from Hutchinson labeled 61
+Minneapolis has edge from Litchfield labeled 67
+
+Node Montevideo, mnemonic Mvo, value 27
+Montevideo has edge to Morris labeled 51
+Montevideo has edge to NewUlm labeled 101
+Montevideo has edge to Willmar labeled 37
+Montevideo has edge from Hutchinson labeled 68
+Montevideo has edge from Marshall labeled 39
+
+Node Moorhead, mnemonic Mrh, value 28
+Moorhead has edge from Crookston labeled 68
+Moorhead has edge from DetroitLakes labeled 44
+Moorhead has edge from EastGrandForks labeled 80
+Moorhead has edge from FergusFalls labeled 58
+
+Node Morris, mnemonic Mor, value 29
+Morris has edge to SaintCloud labeled 93
+Morris has edge to Willmar labeled 54
+Morris has edge from Alexandria labeled 47
+Morris has edge from FergusFalls labeled 53
+Morris has edge from LittleFalls labeled 96
+Morris has edge from Montevideo labeled 51
+
+Node NewUlm, mnemonic NUl, value 30
+NewUlm has edge to Pipestone labeled 105
+NewUlm has edge to SaintPeter labeled 29
+NewUlm has edge to Willmar labeled 81
+NewUlm has edge to Windom labeled 62
+NewUlm has edge from Hutchinson labeled 44
+NewUlm has edge from Mankato labeled 30
+NewUlm has edge from Marshall labeled 82
+NewUlm has edge from Montevideo labeled 101
+
+Node Northfield, mnemonic Nfd, value 31
+Northfield has edge to RedWing labeled 37
+Northfield has edge to Rochester labeled 54
+Northfield has edge to SaintPaul labeled 45
+Northfield has edge to Shakopee labeled 35
+Northfield has edge from Faribault labeled 14
+Northfield has edge from Minneapolis labeled 43
+
+Node Noyes, mnemonic Noy, value 32
+Noyes has edge to ThiefRiverFalls labeled 79
+Noyes has edge from Baudette labeled 144
+Noyes has edge from Crookston labeled 88
+Noyes has edge from EastGrandForks labeled 86
+
+Node Owatonna, mnemonic Owa, value 33
+Owatonna has edge to Rochester labeled 42
+Owatonna has edge to Waseca labeled 18
+Owatonna has edge from AlbertLea labeled 35
+Owatonna has edge from Austin labeled 34
+Owatonna has edge from Faribault labeled 16
+
+Node Pipestone, mnemonic Pip, value 34
+Pipestone has edge to Windom labeled 66
+Pipestone has edge from Luverne labeled 26
+Pipestone has edge from Marshall labeled 43
+Pipestone has edge from NewUlm labeled 105
+
+Node RedWing, mnemonic RWg, value 35
+RedWing has edge to Rochester labeled 46
+RedWing has edge to SaintPaul labeled 52
+RedWing has edge to Stillwater labeled 48
+RedWing has edge to Winona labeled 63
+RedWing has edge from Northfield labeled 37
+
+Node Rochester, mnemonic Rch, value 36
+Rochester has edge to Winona labeled 52
+Rochester has edge from Austin labeled 41
+Rochester has edge from Faribault labeled 59
+Rochester has edge from LaCrescent labeled 71
+Rochester has edge from Northfield labeled 54
+Rochester has edge from Owatonna labeled 42
+Rochester has edge from RedWing labeled 46
+
+Node SaintCloud, mnemonic StC, value 37
+SaintCloud has edge to Shakopee labeled 77
+SaintCloud has edge to Stillwater labeled 85
+SaintCloud has edge to Willmar labeled 61
+SaintCloud has edge from Alexandria labeled 68
+SaintCloud has edge from Cloquet labeled 127
+SaintCloud has edge from Hutchinson labeled 49
+SaintCloud has edge from Litchfield labeled 41
+SaintCloud has edge from LittleFalls labeled 34
+SaintCloud has edge from Minneapolis labeled 68
+SaintCloud has edge from Morris labeled 93
+
+Node SaintPaul, mnemonic SPl, value 38
+SaintPaul has edge to Shakopee labeled 29
+SaintPaul has edge to Stillwater labeled 20
+SaintPaul has edge from Cloquet labeled 133
+SaintPaul has edge from Faribault labeled 51
+SaintPaul has edge from Minneapolis labeled 9
+SaintPaul has edge from Northfield labeled 45
+SaintPaul has edge from RedWing labeled 52
+
+Node SaintPeter, mnemonic SPt, value 39
+SaintPeter has edge to Shakopee labeled 46
+SaintPeter has edge from Faribault labeled 38
+SaintPeter has edge from Hutchinson labeled 59
+SaintPeter has edge from Mankato labeled 13
+SaintPeter has edge from NewUlm labeled 29
+
+Node Shakopee, mnemonic Skp, value 40
+Shakopee has edge from Faribault labeled 41
+Shakopee has edge from Hutchinson labeled 52
+Shakopee has edge from Minneapolis labeled 22
+Shakopee has edge from Northfield labeled 35
+Shakopee has edge from SaintCloud labeled 77
+Shakopee has edge from SaintPaul labeled 29
+Shakopee has edge from SaintPeter labeled 46
+
+Node Stillwater, mnemonic Stl, value 41
+Stillwater has edge from Cloquet labeled 139
+Stillwater has edge from Minneapolis labeled 27
+Stillwater has edge from RedWing labeled 48
+Stillwater has edge from SaintCloud labeled 85
+Stillwater has edge from SaintPaul labeled 20
+
+Node ThiefRiverFalls, mnemonic TRF, value 42
+ThiefRiverFalls has edge from Baudette labeled 122
+ThiefRiverFalls has edge from Bemidji labeled 92
+ThiefRiverFalls has edge from Crookston labeled 44
+ThiefRiverFalls has edge from DetroitLakes labeled 96
+ThiefRiverFalls has edge from EastGrandForks labeled 50
+ThiefRiverFalls has edge from Noyes labeled 79
+
+Node Virginia, mnemonic Vir, value 43
+Virginia has edge from Cloquet labeled 60
+Virginia has edge from Duluth labeled 64
+Virginia has edge from Ely labeled 49
+Virginia has edge from GrandPortage labeled 217
+Virginia has edge from Hibbing labeled 23
+Virginia has edge from InternationalFalls labeled 97
+
+Node Waseca, mnemonic Was, value 44
+Waseca has edge from AlbertLea labeled 33
+Waseca has edge from Faribault labeled 31
+Waseca has edge from Mankato labeled 29
+Waseca has edge from Owatonna labeled 18
+
+Node Willmar, mnemonic Wlm, value 45
+Willmar has edge from Alexandria labeled 65
+Willmar has edge from Litchfield labeled 28
+Willmar has edge from Marshall labeled 68
+Willmar has edge from Montevideo labeled 37
+Willmar has edge from Morris labeled 54
+Willmar has edge from NewUlm labeled 81
+Willmar has edge from SaintCloud labeled 61
+
+Node Windom, mnemonic Wnd, value 46
+Windom has edge to Worthington labeled 30
+Windom has edge from Fairmont labeled 49
+Windom has edge from Mankato labeled 65
+Windom has edge from Marshall labeled 73
+Windom has edge from NewUlm labeled 62
+Windom has edge from Pipestone labeled 66
+
+Node Winona, mnemonic Win, value 47
+Winona has edge from LaCrescent labeled 26
+Winona has edge from RedWing labeled 63
+Winona has edge from Rochester labeled 52
+
+Node Worthington, mnemonic Wrt, value 48
+Worthington has edge from Fairmont labeled 61
+Worthington has edge from Luverne labeled 33
+Worthington has edge from Windom labeled 30
+

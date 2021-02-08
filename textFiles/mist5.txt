@@ -1,0 +1,6 @@
+~               val  Den  Mpl  OKC  Prt  SLC
+Denver           0    ~   915  678 1243  521
+Minneapolis      1   915   ~   787 1729 1232
+OklahomeCity     2   678  787   ~  1910 1188
+Portland         3  1243 1729 1910   ~   766
+SaltLakeCity     4   521 1232 1188  766   ~

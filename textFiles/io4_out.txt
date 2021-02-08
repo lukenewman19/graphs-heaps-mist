@@ -1,0 +1,50 @@
+Node Pear, mnemonic P4, value 4
+Pear has edge to Banana labeled 22
+Pear has edge to Orange labeled 2
+Pear has edge to Strawberry labeled 6
+Pear has edge to Grape labeled 1
+Pear has edge from Banana labeled -2
+Pear has edge from Orange labeled -2
+Pear has edge from Strawberry labeled -6
+Pear has edge from Grape labeled -1
+
+Node Banana, mnemonic B6, value 6
+Banana has edge to Pear labeled -2
+Banana has edge to Orange labeled 0
+Banana has edge to Strawberry labeled 4
+Banana has edge to Grape labeled -1
+Banana has edge from Pear labeled 22
+Banana has edge from Orange labeled 0
+Banana has edge from Strawberry labeled -4
+Banana has edge from Grape labeled 1
+
+Node Orange, mnemonic O6, value 6
+Orange has edge to Pear labeled -2
+Orange has edge to Banana labeled 0
+Orange has edge to Strawberry labeled 4
+Orange has edge to Grape labeled -1
+Orange has edge from Pear labeled 2
+Orange has edge from Banana labeled 0
+Orange has edge from Strawberry labeled -4
+Orange has edge from Grape labeled 1
+
+Node Strawberry, mnemonic Sa, value 10
+Strawberry has edge to Pear labeled -6
+Strawberry has edge to Banana labeled -4
+Strawberry has edge to Orange labeled -4
+Strawberry has edge to Grape labeled -5
+Strawberry has edge from Pear labeled 6
+Strawberry has edge from Banana labeled 4
+Strawberry has edge from Orange labeled 4
+Strawberry has edge from Grape labeled 5
+
+Node Grape, mnemonic G5, value 5
+Grape has edge to Pear labeled -1
+Grape has edge to Banana labeled 1
+Grape has edge to Orange labeled 1
+Grape has edge to Strawberry labeled 5
+Grape has edge from Pear labeled 1
+Grape has edge from Banana labeled -1
+Grape has edge from Orange labeled -1
+Grape has edge from Strawberry labeled -5
+

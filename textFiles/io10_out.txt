@@ -1,0 +1,44 @@
+Node 11, mnemonic 1, value x
+11 has edge to 22 labeled >
+11 has edge to 44 labeled 99
+11 has edge to 55 labeled fig
+11 has edge from 22 labeled 999
+11 has edge from 44 labeled 3
+
+Node 22, mnemonic 2, value 67
+22 has edge to 11 labeled 999
+22 has edge to 22 labeled -42
+22 has edge to 33 labeled 3
+22 has edge to 44 labeled x
+22 has edge to 55 labeled ==
+22 has edge from 11 labeled >
+22 has edge from 22 labeled -42
+22 has edge from 33 labeled 4
+22 has edge from 44 labeled 22
+
+Node 33, mnemonic 3, value ~
+33 has edge to 22 labeled 4
+33 has edge to 44 labeled yz
+33 has edge to 55 labeled 9
+33 has edge from 22 labeled 3
+33 has edge from 44 labeled x
+
+Node 44, mnemonic 4, value 4e
+44 has edge to 11 labeled 3
+44 has edge to 22 labeled 22
+44 has edge to 33 labeled x
+44 has edge to 55 labeled !=2
+44 has edge from 11 labeled 99
+44 has edge from 22 labeled x
+44 has edge from 33 labeled yz
+44 has edge from 55 labeled d>e
+
+Node 55, mnemonic 5, value yes
+55 has edge to 44 labeled d>e
+55 has edge to 55 labeled 33
+55 has edge from 11 labeled fig
+55 has edge from 22 labeled ==
+55 has edge from 33 labeled 9
+55 has edge from 44 labeled !=2
+55 has edge from 55 labeled 33
+

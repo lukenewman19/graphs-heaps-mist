@@ -1,0 +1,7 @@
+~          val  P4  B6  O6  Sa  G5 x11
+Alfa         4   ~   ~   ~   ~   ~   ~
+Bravo        6   ~   ~   ~   ~   ~   ~
+CHarlie     -3   ~   ~   ~   ~   ~   ~
+Delta       -6   ~   ~   ~   ~   ~   ~
+Echo         0   ~   ~   ~   ~   ~   ~
+Foxtrot     55   ~   ~   ~   ~   ~   ~

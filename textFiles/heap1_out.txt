@@ -1,0 +1,13 @@
+Heaps:
+1:AAA
+1:AAA, 2:BB
+1:AAA, 2:BB, 3:C
+1:DDD, 2:AAA, 3:C, 4:BB
+1:DDD, 2:E, 3:C, 4:BB, 5:AAA
+1:DDD, 2:E, 3:A1A, 4:BB, 5:AAA, 6:C
+Heapsort:
+1:E, 2:AAA, 3:A1A, 4:BB, 5:C, 6:DDD
+1:A1A, 2:AAA, 3:C, 4:BB, 5:E, 6:DDD
+1:AAA, 2:BB, 3:C, 4:A1A, 5:E, 6:DDD
+1:BB, 2:C, 3:AAA, 4:A1A, 5:E, 6:DDD
+1:C, 2:BB, 3:AAA, 4:A1A, 5:E, 6:DDD

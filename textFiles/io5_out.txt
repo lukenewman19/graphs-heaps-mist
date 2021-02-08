@@ -1,0 +1,12 @@
+Node Alfa, mnemonic P4, value 4
+
+Node Bravo, mnemonic B6, value 6
+
+Node CHarlie, mnemonic O6, value -3
+
+Node Delta, mnemonic Sa, value -6
+
+Node Echo, mnemonic G5, value 0
+
+Node Foxtrot, mnemonic x11, value 55
+
